@@ -1,1 +1,4 @@
 ﻿.idea
+emails_by_address/*
+maildir/*
+web/*
