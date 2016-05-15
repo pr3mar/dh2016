@@ -4,12 +4,18 @@
     stroke-width: 1.5px;
 }
 
-#licensing {
+#outgoing {
+    fill: green;
+}
+#ingoing {
     fill: green;
 }
 
-.link.licensing {
+.link.outgoing {
     stroke: green;
+}
+.link.ingoing {
+    stroke: red;
 }
 
 .link.resolved {
