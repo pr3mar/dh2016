@@ -18,5 +18,5 @@ for dir in os.listdir("final_project/emails_by_address"):
             emails.add(line[s+8:e])
 
 
-print emails
-print len(emails)
+print(emails)
+print(len(emails))
