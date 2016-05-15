@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Sumana:400,700);
+
 .link {
     fill: none;
     stroke: #666;
@@ -5,17 +7,17 @@
 }
 
 #outgoing {
-    fill: green;
+    fill: #0DB418;
 }
 #ingoing {
-    fill: red;
+    fill: #E51510;
 }
 
 .link.outgoing {
-    stroke: green;
+    stroke: #0DB418;
 }
 .link.ingoing {
-    stroke: red;
+    stroke: #E51510;
 }
 
 .link.resolved {
@@ -32,4 +34,15 @@ text {
     font: 10px sans-serif;
     pointer-events: none;
     text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+}
+
+#stats{
+    background-color: #FFE36B;
+    padding: 10px;
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    text-align: right;
+    font-family: "Lucinda Grande", "Lucinda Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    border-radius: 10px;
 }
