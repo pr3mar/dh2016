@@ -1,6 +1,6 @@
 import json
 
-with open('data.json') as file:
+with open('corrected_data.json') as file:
     namesData = json.load(file)
 
 names = set()
