@@ -114,3 +114,7 @@ function linkArc(d) {
 function transform(d) {
     return "translate(" + d.x + "," + d.y + ")";
 }
+
+$("g").click(function(e){
+    $()
+});

@@ -1,6 +1,6 @@
 import json, os
 
-with open("data.json", "r") as data:
+with open("corrected_data.json", "r") as data:
     data = json.load(data)
     toSave = []
     for entry in data:
@@ -16,5 +16,5 @@ with open("data.json", "r") as data:
             tmp["type"] = "ingoing"
             tmp["noSent"] = data[entry]["to"][snd]
         toSave.append(tmp)
-    out = open(os.getcwd() + "/viz/libs/viz.js", "w")
+    out = open(os.getcwd() + "/viz/libs/corrected_viz.js", "w")
     out.write("links = " + json.dumps(toSave, indent=1))
