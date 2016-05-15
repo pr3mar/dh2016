@@ -1,7 +1,7 @@
 import json
 import numpy as np
 
-with open('data.json') as file:
+with open('corrected_data.json') as file:
     namesData = json.load(file)
 
 names = []
@@ -17,7 +17,7 @@ for name in names:
     for name2 in names:
         if name2 in namesData[name]["to"]:
             matrica[i,j] = namesData[name]["to"][name2]
-        j += 1
-    i += 1
+        j = j + 1
+    i = i + 1
 
 np.savetxt("matrica.csv", matrica, fmt='%i', delimiter=",")
