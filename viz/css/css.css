@@ -46,3 +46,9 @@ text {
     font-family: "Lucinda Grande", "Lucinda Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
     border-radius: 10px;
 }
+
+#head {
+    font-family: "Lucinda Grande", "Lucinda Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    color: #FFE36B;
+    text-shadow: 1px 1px #080808;
+}
